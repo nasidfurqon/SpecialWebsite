@@ -1,0 +1,515 @@
+/* .carousel-inner {
+}
+.car-1 {
+    background: aqua;
+}
+.car-2 {
+    background: red;
+}
+.car-3{
+    background:blue;
+} */
+/* IMAGE SLIDE SHOW */
+.Slideku {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.wadah-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.sebelum, .selanjutnya {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.selanjutnya {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 310px;
+}
+.sebelum {
+    margin-left: 310px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.sebelum:hover, .selanjutnya:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.transisi {
+  animation-name: transisifade;
+  animation-duration: 1.5s;
+}
+
+@keyframes transisifade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* END IMAGE SLIDESHOW */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.paper-3 {
+    height: 350px;
+    rotate: 95deg;
+}
+.outer .down {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+.outer .down div {
+    position: absolute;
+    display: block;
+}
+.outer .down div:nth-child(1){
+    left: 0%;
+    animation: animate2 15s linear infinite;
+    animation-delay: -7s;
+    bottom: 0%;
+}
+.outer .down div:nth-child(2){
+    left: 95%;
+    animation: animate2 15s linear infinite;
+    animation-delay: 0s;
+}
+.outer .down div:nth-child(3){
+    left: 7%;
+    animation: animate2 15s linear infinite;
+    animation-delay: -5s;
+}
+.outer .down div:nth-child(4){
+    left: 15%;
+    animation: animate2 13s linear infinite;
+    animation-delay: 0s;
+}
+.outer .down div:nth-child(5){
+    left: 25%;
+    animation: animate2 15s linear infinite;
+    animation-delay: -5s;
+}
+.outer .down div:nth-child(6){
+    left: 35%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -4s;
+}
+.outer .down div:nth-child(7){
+    left: 45%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -2s;
+}.outer .down div:nth-child(8){
+    left: 55%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -5s;
+}.outer .down div:nth-child(9){
+    left: 65%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -7s;
+}
+.outer .down div:nth-child(10){
+    left: 75%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -3s;
+}.outer .down div:nth-child(11){
+    left: 85%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -5s;
+}.outer .down div:nth-child(12){
+    left: 100%;
+    animation: animate2 13s linear infinite;
+    animation-delay: -2s;
+}
+@keyframes animate2 {    
+    /* 0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) ;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-20px);
+    }
+    40%{
+        transform: translateX(-20px);
+    }
+    60%{
+        transform: translateX(20px);
+    }
+    80%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(20px);
+    } */
+    0%{
+        top: -15%;
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    25%{
+        margin-left: 25px;
+    }
+    50%{
+        margin-left: 10px;
+    }
+    75%{
+        margin-left: 50px;
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+
+}
+.outer{
+    height: 630px;
+    background-color: #22A39F   ;
+    margin-bottom:20px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.inter {
+    padding-top: 40px;
+    /* display: block; */
+    display: flex;
+    margin-left: 351px;
+}
+.notes{
+    margin-right: 220px;
+    display: block;
+    text-align: center;
+}
+.p-1 {
+    font-family:'Dancing Script', cursive;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+.p-2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 150px;
+}
+.p-3 {
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
+    margin-top: -50px;
+    margin-left: -110px;
+    margin-right: -100px;
+}
+.balon {
+    float: right;
+    width: 450px;
+    height: 550px;
+    /* margin-left: 570px; */
+}
+.header {
+    z-index: 1;
+}
+.f-1 {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saying-hbd {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 75px;
+    z-index: 1;
+    padding-top: 10px   ;
+    color: #19A7CE;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+section h2 {
+    color: #fff;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+section .set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+section .set div {
+    position: absolute;
+    display: block;
+}
+section .set div:nth-child(1){
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+    bottom: 0%;
+}
+section .set div:nth-child(2){
+    left: 3%;
+    animation: animate 15s linear infinite;
+    animation-delay: 0s;
+}
+section .set div:nth-child(3){
+    left: 7%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+section .set div:nth-child(4){
+    left: 15%;
+    animation: animate 13s linear infinite;
+    animation-delay: 0s;
+}
+section .set div:nth-child(5){
+    left: 25%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+section .set div:nth-child(6){
+    left: 35%;
+    animation: animate 13s linear infinite;
+    animation-delay: -7s;
+}
+section .set div:nth-child(7){
+    left: 45%;
+    animation: animate 13s linear infinite;
+    animation-delay: 0s;
+}
+section .set div:nth-child(8){
+    left: 50%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+section .set div:nth-child(9){
+    left: 55%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+}
+section .set div:nth-child(10){
+    left: 60%;
+    animation: animate 15s linear infinite;
+    animation-delay: 0s;
+}
+section .set div:nth-child(11){
+    left: 65%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+section .set div:nth-child(12){
+    left: 70%;
+    animation: animate 13s linear infinite;
+    animation-delay: -5s;
+}
+section .set div:nth-child(13){
+    left: 75%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+section .set div:nth-child(14){
+    left: 85%;
+    animation: animate 10s linear infinite;
+    animation-delay: 0s;
+}
+section .set div:nth-child(15){
+    left: 90%;
+    animation: animate 13s linear infinite;
+    animation-delay: -5s;
+}
+section .set div:nth-child(16){
+    left: 100%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+@keyframes animate {    
+    /* 0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) ;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: translateX(-20px);
+    }
+    40%{
+        transform: translateX(-20px);
+    }
+    60%{
+        transform: translateX(20px);
+    }
+    80%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(20px);
+    } */
+    0%{
+        bottom: -15%;
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    25%{
+        margin-left: 25px;
+    }
+    50%{
+        margin-left: 10px;
+    }
+    75%{
+        margin-left: 50px;
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+
+}
+.set2 {
+    transform: scale(0.8);
+    animation-delay: 3s;
+}
+.b-1 {
+    width: 130px;
+    height: 200px;
+}
+.b-2 {
+    width: 120px;
+    height: 200px;
+}
+.b-3 {
+    width: 250px;
+    height: 250px;
+}
+.b-4 {
+    width: 120px;
+    height: 220px;
+}
+.b-5 {
+    width: 120px;
+    height: 357px;
+}
+.b-6 {
+    width: 250px;
+    height: 350px;
+}
+.b-7 {
+    width: 240px;
+    height: 350px;
+}
+.b-8 {
+    width: 120px;
+    height: 220px;
+}
+.button {
+    float: left;
+    margin-left: 630px;
+}
+.button .b-list {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #19A7CE;
+    transition: 0.4s;
+    padding: 5px;
+    margin: 10px;
+}
+.button .b-list:hover {
+    background-color: #19A7CE;
+    color: white;
+}
