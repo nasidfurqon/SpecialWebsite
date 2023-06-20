@@ -255,6 +255,7 @@ img {vertical-align: middle;}
     margin-right: 220px;
     display: block;
     text-align: center;
+    
 }
 .p-1 {
     font-family:'Dancing Script', cursive;
@@ -273,6 +274,7 @@ img {vertical-align: middle;}
     margin-top: -50px;
     margin-left: -110px;
     margin-right: -100px;
+    color: white    ;
 }
 .balon {
     float: right;
@@ -497,7 +499,7 @@ section .set div:nth-child(16){
 }
 .button {
     float: left;
-    margin-left: 630px;
+    margin-left: 610px;
 }
 .button .b-list {
     color: black;
@@ -508,6 +510,7 @@ section .set div:nth-child(16){
     transition: 0.4s;
     padding: 5px;
     margin: 10px;
+    font-family: 'Caveat', cursive;
 }
 .button .b-list:hover {
     background-color: #19A7CE;
