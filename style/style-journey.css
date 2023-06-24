@@ -1,7 +1,6 @@
 * {
-    background-color: #AFD3E2;
+    background-color: #87CEEB;
 }
-
 .container {
     border: 2px solid black;
     border-radius: 10px;
@@ -23,7 +22,7 @@
     font-size: 40px;
     background-color: white;
     font-family: 'Caveat', cursive;
-    color: #19A7CE;
+    color: #2A93D5;
 }
 .pp {
     width: 250px;

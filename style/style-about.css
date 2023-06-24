@@ -2,23 +2,335 @@
     font-family: 'Courgette', cursive;
 
 }
+.star-page {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;    
+}
+.star-page div {
+    position: absolute;
+    display: block;
+}
+.star1 {
+    width: 15px;
+}
+.star2 {
+    width: 20px;
+}
+.star3 {
+    width: 30px;
+}
+.star4 {
+    width: 40px;
+}
+.star5 {
+    width: 50px;
+}
+.star6 {
+    width: 15px;
+}
+.star7 {
+    width: 20px;
+}
+.star8 {
+    width: 30px;
+}
+.star9 {
+    width: 40px;
+}
+.star10 {
+    width: 50px;
+}
+.star11 {
+    width: 15px;
+}
+.star12 {
+    width: 20px;
+}
+.star13 {
+    width: 30px;
+}
+.star14 {
+    width: 40px;
+}
+.star15 {
+    width: 50px;
+}
+.star16 {
+    width: 15px;
+}
+.star17 {
+    width: 20px;
+}
+.star18 {
+    width: 30px;
+}
+.star19 {
+    width: 40px;
+}
+.star20 {
+    width: 50px;
+}
+.star21 {
+    width: 15px;
+}
+.star22 {
+    width: 20px;
+}
+.star23 {
+    width: 30px;
+}
+.star24 {
+    width: 40px;
+}
+.star25 {
+    width: 50px;
+}
+.moon {
+    width: 70px;
+}
+.transisi {
+    animation-name: starfade;
+    animation:8s
+}
+@keyframes starfade {
+    from {opacity: .0;}
+    to {opacity: 1;}
+}
+
+.star-page div:nth-child(1){
+    margin-top: 60px;
+    margin-left: 20px;
+    animation: starfade 13s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(2){
+    margin-top: 120px;
+    margin-left: 100px;
+    animation: starfade 22s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(3){
+    margin-top: 80px;
+    margin-left: 1040px;
+    animation: starfade 33s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(4){
+    margin-top: 30px;
+    margin-left: 190px;
+    animation: starfade 17s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(5){
+    margin-top: 10px;
+    margin-left: 300px;
+    animation: starfade 15s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(6){
+    margin-top: 120px;
+    margin-left: 250px;
+    animation: starfade 20s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(7){
+    margin-top: 45px;
+    margin-left: 520px;
+    animation: starfade 17s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(8){
+    margin-top: 10px;
+    margin-left: 470px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(9){
+    margin-top: 75px;
+    margin-left: 1320px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(10){
+    margin-top: 5px;
+    margin-left: 580px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(11){
+    margin-top: 95px;
+    margin-left: 570px;
+    animation: starfade 15s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(12){
+    margin-top: 85px;
+    margin-left: 610px;
+    animation: starfade 20s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(13){
+    margin-top: 45px;
+    margin-left: 650px;
+    animation: starfade 10s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(14){
+    margin-top: 65px;
+    margin-left: 700px;
+    animation: starfade 28s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(15){
+    margin-top: 10px;
+    margin-left: 820px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(16){
+    margin-top: 90px;
+    margin-left: 840px;
+    animation: starfade 15s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(17){
+    margin-top: 70px;
+    margin-left: 900px;
+    animation: starfade 21s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(18){
+    margin-top: 20px;
+    margin-left: 750px;
+    animation: starfade 10s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(19){
+    margin-top: 10px;
+    margin-left: 950px;
+    animation: starfade 17s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(20){
+    margin-top: 50px;
+    margin-left: 1150px;
+    animation: starfade 28s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(21){
+    margin-top: 15px;
+    margin-left: 1120px;
+    animation: starfade 13s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(22){
+    margin-top: 60px;
+    margin-left: 1470px;
+    animation: starfade 24s linear infinite;   
+    animation-delay: -30s;
+}
+.star-page div:nth-child(23){
+    margin-top: 170px;
+    margin-left: 1300px;
+    animation: starfade 16s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(24){
+    margin-top: 250px;
+    margin-left: 1400px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(25){
+    margin-top: 10px;
+    margin-left: 1250px;
+    animation: starfade 20s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(26){
+    margin-top: 70px;
+    margin-left: 370px;
+    animation: starfade 11s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(27){
+    margin-top: 7px;
+    margin-left: 1405px;
+    animation: starfade 11s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(28){
+    margin-top: 20px;
+    margin-left: 400px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(29){
+    margin-top: 180px;
+    margin-left: 180px;
+    animation: starfade 11s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(30){
+    margin-top: 70px;
+    margin-left: 450px;
+    animation: starfade 20s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(31){
+    margin-top: 2px;
+    margin-left: 1010px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(32){
+    margin-top: 200px;
+    margin-left: 50px;
+    animation: starfade 8s linear infinite;   
+    animation-delay: -30s;
+}
+.star-page div:nth-child(33){
+    margin-top: 170px;
+    margin-left: 1430px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(34){
+    margin-top: 250px;
+    margin-left: 120px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
+.star-page div:nth-child(35){
+    margin-top: 5px;
+    margin-left: 90px;
+    animation: starfade 8s linear infinite;
+    animation-delay: -30s;
+}
 body {
-    background-color: #D4FAFC;
+    /* background-color: #16253D; */
+    background-image: linear-gradient(black, #16253D);
 }
 .about {
     padding: 10px;
-    margin-top: 110px;
+    margin-top: 120px;
     border-radius: 10px;
     text-align: center;
     width: 60%;
     margin-left: 300px;
-    height: 500px;
-    background-color: #F1C376;
-
+    height: 470px;
+    background-color: #EEE3CB;
+    margin-bottom: 120px
 }
 .header p{
     font-size: 23px;
     margin-right: 10px;
+}
+.name {
+    margin-left: -30px;
 }
 .body p {
     font-size: 17px;
@@ -26,9 +338,16 @@ body {
     padding-left: 10px;
 }
 .left-logo {
-    background-color:#F1C376;
+    background-color:#EEE3CB;
     width: 35px;
     text-decoration: none;
     float: left;
     margin-left: 10px;
+}
+.upper-limit {
+    margin-top: 60px;
+}
+.bottom-limit {
+    margin-top: 30px;
+    margin-right: 10px;
 }
